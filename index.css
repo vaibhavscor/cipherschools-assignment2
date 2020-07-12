@@ -273,3 +273,96 @@ background-color: palevioletred;
     border-radius: 0 2px 2px 0;
     background-color: #2ecc71;
 }
+
+.neon{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: palevioletred;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 20px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.neon:hover{
+    color: black;
+    background-color: palevioletred;
+    box-shadow: 5px 5px 15px 5px #FF13AF;
+}
+
+.neonb{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: palevioletred;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 20px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.neonb:hover{
+    color: black;
+    background-color: lightskyblue;
+    box-shadow: 5px 5px 15px 5px #3A7AFF;
+}
+
+.neona{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: palevioletred;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 20px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.neona:hover{
+    color: black;
+    background-color: lightgreen;
+    box-shadow: 5px 5px 15px 5px #86FF4B;
+}
+.aligh1{
+    text-align: center;
+    color: #ffffff;
+    padding: 1rem;
+    position: relative;
+}
+.aligh1:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 100px;  
+    background-color: palevioletred;  
+    }
+
+
+    .neonb2{
+        position: relative;
+        display: inline-block;
+        padding: 15px 30px;
+        color: palevioletred;
+        letter-spacing: 4px;
+        text-decoration: none;
+        font-size: 20px;
+        overflow: hidden;
+        transition: 0.2s;
+        padding: 8px 8px 8px 8px;
+        margin: 0px 0px 0px 0px;
+    }
+    .neonb2:hover{
+        color: black;
+        background-color: lightskyblue;
+        box-shadow: 5px 5px 15px 5px #3A7AFF;
+    }
+    .skill-box2{
+        padding: 1rem;
+        color: #dddddd;
+        cursor: pointer;
+        border: 2px solid whitesmoke;
+    }
