@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: ;  */
+    font-family: 'Josefin Sans', sans-serif;
 }
-
+body{
+    font-family: 'Josefin Sans', sans-serif !important;
+    }
 html {
     scroll-behavior: smooth;
 }
@@ -15,6 +17,7 @@ html {
 
 body{
     background-color: #252627;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 nav ul{
@@ -210,6 +213,8 @@ width: 100px;
 background-color: palevioletred;  
 }
 
+/* grid **************************** */
+
 .container_skill{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -365,4 +370,39 @@ background-color: palevioletred;
         color: #dddddd;
         cursor: pointer;
         border: 2px solid whitesmoke;
+    }
+
+    .social{
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .social ul{
+        display: flex;
+    }
+
+    .social h1{
+        padding: 110px 8px 0px 32px;
+        margin: 0px 0px 0px 0px;
+        display: flex;
+        font-size: medium;
+    }
+ 
+    .contact-me{
+        position: relative;
+        top: 43px;
+        left: 32px;
+    }
+    .soc{
+        height: 30px;
+        width: 30px;
+    }
+    .mc li{
+        margin: 0px;
+        padding: 0px;
+    }
+    .mc{
+        position: relative;
+        top: -8px;
+        left: 71px;
     }
